@@ -6,7 +6,7 @@ See the runs and other tests here: https://wandb.ai/samhero/Noise2Overfit/overvi
 Step 1:
 Overfit a Noise2Noise model: be sure to shuffle noisy input and target pairs within stack every epoch (prevents model from prediting noisy target)
 - Use [Noise2Overfit.py script](Noise2Overfit.py)
-- see [overfit_montage.pdf](overfit_montage.pdf)
+- see [overfit_montage.pdf](2023-08-30-Overfit_Montage.pdf)
 
 Step 2:
 Set aside a portion of your images for val and test. I am doing this manually for now.
